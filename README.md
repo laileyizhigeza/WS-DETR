@@ -19,7 +19,7 @@ The **WS-DETR** model incorporates two innovative modules to improve detection a
 The **WM-Dual Block** is shown below
 ![WM-Dual Block Architecture](figure/WM-Block.png)
 
-The ** SQ-ACA** is shown below
+The **SQ-ACA** is shown below
 ![SQ-ACA Architecture](figure/SQ-ACA.png)
 
 ## Experimental Results
@@ -28,7 +28,7 @@ The experimental results of the **WS-DETR** model are presented in the table and
 
 The experimental results are visualized, showcasing the model's ability to detect small and distant objects, as well as reduce false positives in complex traffic scenes.
 
-![Experimental Results](figure/experiment.pdf)
+![Experimental Results](figure/experiment.png)
 
 
 ## Requirements
@@ -40,22 +40,3 @@ The experimental results are visualized, showcasing the model's ability to detec
 ## Train and Test
 The training and testing scripts for WS-DETR will be released after the paper is officially published. Please stay tuned for the updates once the paper is available.
 
-
-
-
-
-
-
----
-
-## Requirements
-- Python 3.8+
-- PyTorch 1.8+
-- CUDA (for GPU support)
-- Additional Python packages: `torchvision`, `numpy`, `matplotlib`, `scipy`
-
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-repository-link
-   cd WS-DETR
