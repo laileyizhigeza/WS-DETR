@@ -29,6 +29,7 @@ The experimental results of the **WS-DETR** model are presented in the table and
 The experimental results are visualized, showcasing the model's ability to detect small and distant objects, as well as reduce false positives in complex traffic scenes.
 
 ![Experimental Results](figure/experiment.png)
+![Experimental Results](figure/DB.png)
 
 
 ## Requirements
