@@ -1,4 +1,4 @@
-# WS-DETR: A Real-Time Traffic Object Detection Model Based on DETR
+# WS-DETR: A Wavelet-Mamba and Shared Query Attention Enhanced DETR for Traffic Object Detection
 
 **WS-DETR** is a real-time traffic object detection model built upon the **RT-DETR** framework. The model incorporates two key innovations:  
 - **Wavelet-Mamba Dual Path Block (WM-Dual Block)** for improving small-object detection,  
