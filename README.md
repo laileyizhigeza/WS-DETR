@@ -14,8 +14,8 @@ Both modules aim to solve critical challenges in traffic object detection, parti
 
 ## Requirements
 - Python 3.9.12
-- PyTorch 2.1.2
-- CUDA (for GPU support)
+- PyTorch 2.4.2
+- CUDA 12.2
 - Additional Python packages: `torchvision`, `numpy`, `matplotlib`, `scipy`
 
 ## Train and Test
