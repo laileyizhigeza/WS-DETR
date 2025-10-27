@@ -12,6 +12,25 @@ Both modules aim to solve critical challenges in traffic object detection, parti
 - **Robustness**: Effectively handles low-light conditions, occlusions, and dense traffic environments.
 - **Transformer-based architecture**: Built upon the powerful DETR framework for end-to-end object detection.
 
+## Model Architecture
+The **WS-DETR** model incorporates two innovative modules to improve detection accuracy, especially in small-object detection and low-light scenarios. The architecture of the model is shown below:
+![WS-DETR Model Architecture](figure/overview.png)
+
+The **WM-Dual Block** is shown below
+![WM-Dual Block Architecture](figure/WM-Block.png)
+
+The ** SQ-ACA** is shown below
+![SQ-ACA Architecture](figure/SQ-ACA.png)
+
+## Experimental Results
+
+The experimental results of the **WS-DETR** model are presented in the table and figure below, demonstrating its superior performance in comparison to state-of-the-art models like YOLO and DETR variants.
+
+The experimental results are visualized, showcasing the model's ability to detect small and distant objects, as well as reduce false positives in complex traffic scenes.
+
+![Experimental Results](figure/experiment.pdf)
+
+
 ## Requirements
 - Python 3.9.12
 - PyTorch 2.4.2
@@ -20,3 +39,23 @@ Both modules aim to solve critical challenges in traffic object detection, parti
 
 ## Train and Test
 The training and testing scripts for WS-DETR will be released after the paper is officially published. Please stay tuned for the updates once the paper is available.
+
+
+
+
+
+
+
+---
+
+## Requirements
+- Python 3.8+
+- PyTorch 1.8+
+- CUDA (for GPU support)
+- Additional Python packages: `torchvision`, `numpy`, `matplotlib`, `scipy`
+
+## Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-repository-link
+   cd WS-DETR
