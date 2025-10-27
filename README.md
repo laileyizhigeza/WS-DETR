@@ -16,10 +16,10 @@ Both modules aim to solve critical challenges in traffic object detection, parti
 The **WS-DETR** model incorporates two innovative modules to improve detection accuracy, especially in small-object detection and low-light scenarios. The architecture of the model is shown below:
 ![WS-DETR Model Architecture](figure/overview.png)
 
-The **WM-Dual Block** is shown below
+The **WM-Dual Block** is shown below:
 ![WM-Dual Block Architecture](figure/WM-Block.png)
 
-The **SQ-ACA** is shown below
+The **SQ-ACA** is shown below:
 ![SQ-ACA Architecture](figure/SQ-ACA.png)
 
 ## Experimental Results
